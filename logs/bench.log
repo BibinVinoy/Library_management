@@ -1,0 +1,262 @@
+2021-11-16 18:14:36,532 DEBUG cd frappe-bench && /home/bibin/.local/bin/virtualenv -q env -p python3
+2021-11-16 18:14:38,454 LOG Getting app frappe
+2021-11-16 18:14:38,454 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2021-11-16 18:15:28,205 LOG installing frappe
+2021-11-16 18:15:28,205 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-11-16 18:18:32,875 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-11-16 18:22:54,996 WARNING cd frappe-bench/apps/frappe && yarn install executed with exit code 1
+2021-11-16 18:22:55,056 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-11-16 18:22:58,208 WARNING cd frappe-bench/apps/frappe && yarn install executed with exit code 1
+2021-11-16 18:22:58,259 DEBUG cd frappe-bench && bench build
+2021-11-16 18:22:59,047 INFO /home/bibin/.local/bin/bench build
+2021-11-16 18:23:28,900 LOG setting up backups
+2021-11-16 18:23:29,141 INFO Bench frappe-bench initialized
+2021-11-16 18:24:08,414 INFO /home/bibin/.local/bin/bench start
+2021-11-16 18:24:10,528 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-16 18:24:10,666 INFO /home/bibin/.local/bin/bench watch
+2021-11-16 18:24:10,707 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-16 18:24:10,892 INFO /home/bibin/.local/bin/bench schedule
+2021-11-16 18:24:10,902 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-16 18:24:10,956 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-16 18:25:08,054 INFO /home/bibin/.local/bin/bench new-site library.com
+2021-11-16 18:30:16,033 INFO /home/bibin/.local/bin/bench new-app library_app
+2021-11-16 18:30:16,549 LOG creating new app library_app
+2021-11-16 18:30:52,358 LOG installing library_app
+2021-11-16 18:30:52,359 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/library_app 
+2021-11-16 18:30:58,996 DEBUG bench build --app library_app
+2021-11-16 18:30:59,472 INFO /home/bibin/.local/bin/bench build --app library_app
+2021-11-16 18:31:25,301 INFO /home/bibin/.local/bin/bench --site library.com install-app
+2021-11-16 18:31:48,422 INFO /home/bibin/.local/bin/bench --site library.com install-applibrary_app
+2021-11-16 18:32:12,770 INFO /home/bibin/.local/bin/bench --site library.com install-app library_app
+2021-11-16 18:32:57,025 INFO /home/bibin/.local/bin/bench library.com set-config developer_mode 1
+2021-11-16 18:32:57,544 WARNING /home/bibin/.local/bin/bench library.com set-config developer_mode 1 executed with exit code 2
+2021-11-16 18:33:14,549 INFO /home/bibin/.local/bin/bench --site library.com set-config developer_mode 1
+2021-11-16 18:34:13,815 INFO /home/bibin/.local/bin/bench start
+2021-11-16 18:34:15,560 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-16 18:34:15,621 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-16 18:34:15,654 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-16 18:34:15,662 INFO /home/bibin/.local/bin/bench watch
+2021-11-16 18:34:15,738 INFO /home/bibin/.local/bin/bench schedule
+2021-11-16 18:34:15,950 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-16 19:10:40,298 INFO /home/bibin/.local/bin/bench start
+2021-11-16 19:10:45,164 INFO /home/bibin/.local/bin/bench schedule
+2021-11-16 19:10:45,253 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-16 19:10:45,275 INFO /home/bibin/.local/bin/bench watch
+2021-11-16 19:10:45,305 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-16 19:10:45,365 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-16 19:10:45,400 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 08:05:54,658 INFO /home/bibin/.local/bin/bench version
+2021-11-17 08:16:35,724 INFO /home/bibin/.local/bin/bench start
+2021-11-17 08:16:38,003 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 08:16:38,021 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 08:16:38,056 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 08:16:38,068 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 08:16:38,161 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 08:16:38,176 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 09:27:48,322 INFO /home/bibin/.local/bin/bench start
+2021-11-17 09:27:51,685 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 09:27:51,815 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 09:27:51,823 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 09:27:51,867 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 09:27:51,917 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 09:27:51,965 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 09:44:20,489 INFO /home/bibin/.local/bin/bench start
+2021-11-17 09:44:24,017 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 09:44:24,030 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 09:44:24,166 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 09:44:24,331 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 09:44:24,381 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 09:44:24,481 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 09:48:32,975 INFO /home/bibin/.local/bin/bench start
+2021-11-17 09:48:35,052 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 09:48:35,065 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 09:48:35,083 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 09:48:35,130 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 09:48:35,182 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 09:48:35,247 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:05:43,433 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:05:45,413 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:05:45,485 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:05:45,588 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:05:45,645 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:05:45,701 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:05:45,739 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:07:17,942 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:07:19,949 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:07:19,976 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:07:20,046 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:07:20,113 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:07:20,143 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:07:20,197 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:15:27,613 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:15:29,603 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:15:29,802 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:15:29,869 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:15:29,918 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:15:29,933 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:15:30,055 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:16:12,942 INFO /home/bibin/.local/bin/bench ---site library.com mariadb
+2021-11-17 10:16:13,487 WARNING /home/bibin/.local/bin/bench ---site library.com mariadb executed with exit code 2
+2021-11-17 10:16:27,944 INFO /home/bibin/.local/bin/bench --site library.com mariadb
+2021-11-17 10:22:57,078 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:22:59,059 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:22:59,140 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:22:59,201 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:22:59,202 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:22:59,221 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:22:59,317 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:34:58,418 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:35:00,250 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:35:00,281 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:35:00,434 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:35:00,505 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:35:00,513 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:35:00,559 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:36:38,870 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:36:40,769 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:36:40,843 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 10:36:40,863 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:36:40,952 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:36:40,983 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:36:41,007 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:38:51,493 INFO /home/bibin/.local/bin/bench start
+2021-11-17 10:38:53,367 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 10:38:53,448 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 10:38:53,504 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 10:38:53,542 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 10:38:53,571 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 10:38:53,583 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:02:22,646 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:02:24,558 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:02:24,687 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:02:24,699 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:02:24,791 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:02:24,928 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:02:24,957 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:38:13,042 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:38:14,941 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:38:14,971 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:38:14,986 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:38:15,047 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:38:15,105 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:38:15,166 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:47:04,095 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:47:05,989 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:47:06,119 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:47:06,171 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:47:06,196 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:47:06,225 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:47:06,262 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:48:55,491 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:48:57,286 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:48:57,416 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:48:57,484 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:48:57,500 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:48:57,579 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:48:57,630 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:51:14,955 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:51:16,882 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:51:16,899 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:51:16,904 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:51:16,962 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:51:17,105 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:51:17,144 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:52:28,219 INFO /home/bibin/.local/bin/bench start
+2021-11-17 11:52:30,014 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 11:52:30,197 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 11:52:30,237 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 11:52:30,249 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 11:52:30,373 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 11:52:30,487 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 11:57:39,277 INFO /home/bibin/.local/bin/bench consol
+2021-11-17 11:57:39,789 WARNING /home/bibin/.local/bin/bench consol executed with exit code 2
+2021-11-17 11:57:42,836 INFO /home/bibin/.local/bin/bench consol
+2021-11-17 11:57:43,349 WARNING /home/bibin/.local/bin/bench consol executed with exit code 2
+2021-11-17 11:58:36,303 INFO /home/bibin/.local/bin/bench --site library.com consol
+2021-11-17 11:58:41,395 INFO /home/bibin/.local/bin/bench --site library.com console
+2021-11-17 12:00:01,763 INFO /home/bibin/.local/bin/bench --verbose --site all backup
+2021-11-17 12:20:51,601 INFO /home/bibin/.local/bin/bench start
+2021-11-17 12:20:53,500 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 12:20:53,601 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 12:20:53,804 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 12:20:53,828 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 12:20:53,833 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 12:20:54,053 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 13:47:18,433 INFO /home/bibin/.local/bin/bench start
+2021-11-17 13:47:41,942 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 13:47:42,119 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 13:47:42,123 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 13:47:42,230 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 13:47:42,255 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 13:47:42,432 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 14:06:28,634 INFO /home/bibin/.local/bin/bench start
+2021-11-17 14:06:33,537 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 14:06:33,553 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 14:06:33,579 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 14:06:33,610 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 14:06:33,637 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 14:06:33,667 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 14:32:24,152 INFO /home/bibin/.local/bin/bench console
+2021-11-17 14:33:18,765 INFO /home/bibin/.local/bin/bench start
+2021-11-17 14:33:20,894 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 14:33:20,976 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 14:33:21,010 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 14:33:21,044 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 14:33:21,056 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 14:33:21,259 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 14:35:33,870 INFO /home/bibin/.local/bin/bench start
+2021-11-17 14:35:35,792 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 14:35:35,793 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 14:35:35,947 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 14:35:36,057 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 14:35:36,081 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 14:35:36,218 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 14:36:25,161 INFO /home/bibin/.local/bin/bench start
+2021-11-17 14:36:27,137 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 14:36:27,182 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 14:36:27,225 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 14:36:27,290 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 14:36:27,310 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 14:36:27,501 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 15:26:05,070 INFO /home/bibin/.local/bin/bench start
+2021-11-17 15:26:08,657 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 15:26:08,758 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 15:26:08,816 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 15:26:09,013 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 15:26:09,066 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 15:26:09,100 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 15:31:59,886 INFO /home/bibin/.local/bin/bench start
+2021-11-17 15:32:02,875 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 15:32:02,947 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 15:32:03,000 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 15:32:03,016 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 15:32:03,079 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 15:32:03,181 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 15:58:50,493 INFO /home/bibin/.local/bin/bench start
+2021-11-17 15:58:52,747 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 15:58:52,763 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 15:58:52,777 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 15:58:52,946 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 15:58:53,032 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 15:58:53,145 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 19:01:53,573 INFO /home/bibin/.local/bin/bench start
+2021-11-17 19:01:58,714 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 19:01:58,800 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 19:01:58,824 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 19:01:59,000 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 19:01:59,097 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 19:01:59,216 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 19:11:59,545 INFO /home/bibin/.local/bin/bench start
+2021-11-17 19:12:03,392 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 19:12:03,419 INFO /home/bibin/.local/bin/bench worker --queue short
+2021-11-17 19:12:03,441 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 19:12:03,554 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 19:12:03,590 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 19:12:03,602 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 19:16:58,243 INFO /home/bibin/.local/bin/bench start
+2021-11-17 19:17:00,242 INFO /home/bibin/.local/bin/bench serve --port 8004
+2021-11-17 19:17:00,260 INFO /home/bibin/.local/bin/bench worker --queue default
+2021-11-17 19:17:00,348 INFO /home/bibin/.local/bin/bench schedule
+2021-11-17 19:17:00,386 INFO /home/bibin/.local/bin/bench watch
+2021-11-17 19:17:00,416 INFO /home/bibin/.local/bin/bench worker --queue long
+2021-11-17 19:17:00,422 INFO /home/bibin/.local/bin/bench worker --queue short

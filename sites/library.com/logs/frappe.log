@@ -1,0 +1,30 @@
+2021-11-17 10:06:16,128 ERROR frappe New Exception collected with id: 2021-11-17 10:06:15.858771-127.0.0.1-0aa
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 10:08:22,967 ERROR frappe New Exception collected with id: 2021-11-17 10:08:22.663471-127.0.0.1-9af
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 10:35:59,978 ERROR frappe New Exception collected with id: 2021-11-17 10:35:59.667336-127.0.0.1-bc6
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '2021-11-17 10:12:17.667592', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 10:37:07,487 ERROR frappe New Exception collected with id: 2021-11-17 10:37:07.219088-127.0.0.1-26a
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 11:49:30,557 ERROR frappe New Exception collected with id: 2021-11-17 11:49:30.310875-127.0.0.1-6de
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'name': 'LMS021', 'cmd': 'frappe.desk.form.linked_with.get_submitted_linked_docs'}
+2021-11-17 11:50:13,658 ERROR frappe New Exception collected with id: 2021-11-17 11:50:13.562743-127.0.0.1-805
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '2021-11-17 10:12:17.667592', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 11:51:51,573 ERROR frappe New Exception collected with id: 2021-11-17 11:51:51.306409-127.0.0.1-5c2
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '2021-11-17 10:12:17.667592', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 11:52:48,792 ERROR frappe New Exception collected with id: 2021-11-17 11:52:48.519898-127.0.0.1-46f
+Site: library.com
+Form Dict: {'doctype': 'LibraryMembership', 'with_parent': '1', 'cached_timestamp': '2021-11-17 10:12:17.667592', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-11-17 12:23:18,695 ERROR frappe New Exception collected with id: 2021-11-17 12:23:18.452323-127.0.0.1-540
+Site: library.com
+Form Dict: {'doc': '{"name":"LMS030","owner":"Administrator","creation":"2021-11-17 12:23:13.286490","modified":"2021-11-17 12:23:13.286490","modified_by":"Administrator","idx":0,"docstatus":0,"library_member":"LM006","full_name":"Soly Abraham","from_date":"2021-11-17","paid":1,"doctype":"LibraryMembership"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-11-17 14:35:01,090 ERROR frappe New Exception collected with id: 2021-11-17 14:35:00.861344-127.0.0.1-643
+Site: library.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Demo","name":"new-demo-1","__islocal":1,"__unsaved":1,"owner":"Administrator","member":"LM006","route":"soly1","first_name":"Amma","age":49}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

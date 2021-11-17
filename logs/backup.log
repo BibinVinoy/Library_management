@@ -1,0 +1,6 @@
+mysqldump --single-transaction --quick --lock-tables=false -u _54db31bae9353072 -p0j9m3gQuu6KWobUU _54db31bae9353072 -h 127.0.0.1 -P 3306   | /bin/gzip >> ./library.com/private/backups/20211117_120002-library_com-database.sql.gz
+
+Backup Summary for library.com at 2021-11-17 12:00:05.588259
+Config  : ./library.com/private/backups/20211117_120002-library_com-site_config_backup.json 116.0B
+Database: ./library.com/private/backups/20211117_120002-library_com-database.sql.gz         271.8KiB
+Backup for Site library.com has been successfully completed
